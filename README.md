@@ -24,7 +24,7 @@ There are three role specific modifier buttons.  ![A](images/a_s.jpg) is for com
 
 1. Start &rarr; Run &rarr; `%LOCALAPPDATA%`
 2. Go to Frontier Developments &rarr; Elite Dangerous &rarr; Options &rarr; Bindings
-3. Copy [Dahkron Xbox.binds](https://raw.githubusercontent.com/cmdrdahkron/elite-binds/master/Dahkron-Xbox.binds) into Bindings folder
+3. Copy [Dahkron Xbox.binds](https://raw.githubusercontent.com/cmdrdahkron/elite-binds/master/Dahkron-Xbox.binds) into Bindings folder (right click and save)
 4. Run Elite, go to controls options and select it from the preset menu
 
 ## Contributing
