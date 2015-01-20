@@ -239,7 +239,9 @@
 	</BackwardThrustButton_Landing>
 	<ToggleFlightAssist>
 		<Primary Device="Keyboard" Key="Key_Z" />
-		<Secondary Device="GamePad" Key="Pad_RThumb"/>
+		<Secondary Device="GamePad" Key="Pad_LThumb">
+      <Modifier Device="GamePad" Key="Pad_X" />
+    </Secondary>
 		<ToggleOn Value="1" />
 	</ToggleFlightAssist>
 	<UseBoostJuice>
@@ -397,8 +399,7 @@
 	</ToggleCargoScoop>
 	<EjectAllCargo>
 		<Primary Device="Keyboard" Key="Key_End" />
-		<Secondary Device="GamePad" Key="Pad_DPadUp">
-			<Modifier Device="GamePad" Key="Pad_A" />
+		<Secondary Device="GamePad" Key="Pad_RThumb">
 			<Modifier Device="GamePad" Key="Pad_X" />
 		</Secondary>
 	</EjectAllCargo>
@@ -446,7 +447,9 @@
 	</FocusRightPanel>
 	<FocusRadarPanel>
 		<Primary Device="Keyboard" Key="Key_3" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="GamePad" Key="Pad_DPadDown">
+      <Modifier Device="GamePad" Key="Pad_B"/>
+    </Secondary>
 	</FocusRadarPanel>
 	<QuickCommsPanel>
 		<Primary Device="Keyboard" Key="Key_Enter" />
