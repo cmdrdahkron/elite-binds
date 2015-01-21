@@ -140,7 +140,9 @@
 	</SetSpeedMinus25>
 	<SetSpeedZero>
 		<Primary Device="Keyboard" Key="Key_Numpad_0" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="GamePad" Key="Pad_LBumper">
+      <Modifier Device="GamePad" key="Pad_RBumper" />
+    </Secondary>
 	</SetSpeedZero>
 	<SetSpeed25>
 		<Primary Device="Keyboard" Key="Key_Numpad_1" />
