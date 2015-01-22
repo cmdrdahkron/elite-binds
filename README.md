@@ -8,9 +8,9 @@ I wondered if other Xbox controller users might be interested in trying it too.
 
 ## Rationale
 
-There are three role specific modifier buttons.  ![A](images/a_s.jpg) is for combat, ![B](images/b_s.jpg) is for ui and ![X](images/x_s.jpg) is for utilities.  That way there's one less thing for me to think about and I just know that for example holding A yields combat related actions (targeting, hardpoints, weapon groups, etc).
+There are three role specific modifier buttons.  ![A](images/buttons/a_s.jpg) is for combat, ![B](images/buttons/b_s.jpg) is for ui and ![X](images/buttons/x_s.jpg) is for utilities.  That way there's one less thing for me to think about and I just know that for example holding A yields combat related actions (targeting, hardpoints, weapon groups, etc).
 
-![Y](images/y_s.jpg) has one single purpose, which is to target ahead.
+![Y](images/buttons/y_s.jpg) has one single purpose, which is to target ahead.
 
 ### Bindings
 
