@@ -27,6 +27,18 @@ There are three role specific modifier buttons.  ![A](images/a_s.jpg) is for com
 3. Copy [Dahkron-Xbox.binds](https://raw.githubusercontent.com/cmdrdahkron/elite-binds/master/Dahkron-Xbox.binds) into Bindings folder (right click and save)
 4. Run Elite, go to controls options and select it from the preset menu
 
+## Changes
+
+##### 22/01/15
+
+* Moved jettison cargo to ![A](images/a_s.jpg)+![X](images/x_s.jpg)+RThumb as it conflicted with ship lights on the same binding. Ship lights are ![X](images/x_s.jpg)+RThumb. This puts all the 'smuggle' type actions together on ![A](images/a_s.jpg)+![X](images/x_s.jpg).
+* Added ![A](images/a_s.jpg)+![X](images/x_s.jpg)+LBumper and ![A](images/a_s.jpg)+![X](images/x_s.jpg)+RBumper to set thrust to 0 and 75% respectively.
+* Removed the crosshair.  Sorry, it bugged me.  You can turn it on again by switching on 'Show mouse widget' in the control options after you've loaded the preset.
+
+##### 20/01/15
+
+* Fixed a couple of errors on the diagrams.
+
 ## Contributing
 
 Please feel free to fork, submit pull requests and/or create issues.

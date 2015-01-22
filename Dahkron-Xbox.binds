@@ -12,7 +12,7 @@
 	<MouseHeadlook Value="1" />
 	<MouseHeadlookInvert Value="0" />
 	<MouseHeadlookSensitivity Value="0.50000000" />
-	<MouseGUI Value="1" />
+	<MouseGUI Value="0" />
 	<YawAxis>
 		<Binding Device="GamePad" Key="Pad_RStickX" />
 		<Inverted Value="0" />
@@ -140,7 +140,10 @@
 	</SetSpeedMinus25>
 	<SetSpeedZero>
 		<Primary Device="Keyboard" Key="Key_Numpad_0" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="GamePad" Key="Pad_LBumper">
+			<Modifier Device="GamePad" Key="Pad_X" />
+			<Modifier Device="GamePad" Key="Pad_A" />
+		</Secondary>
 	</SetSpeedZero>
 	<SetSpeed25>
 		<Primary Device="Keyboard" Key="Key_Numpad_1" />
@@ -152,7 +155,10 @@
 	</SetSpeed50>
 	<SetSpeed75>
 		<Primary Device="Keyboard" Key="Key_Numpad_3" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="GamePad" Key="Pad_RBumper">
+			<Modifier Device="GamePad" Key="Pad_X" />
+			<Modifier Device="GamePad" Key="Pad_A" />
+		</Secondary>
 	</SetSpeed75>
 	<SetSpeed100>
 		<Primary Device="Keyboard" Key="Key_Numpad_Decimal" />
@@ -401,6 +407,7 @@
 		<Primary Device="Keyboard" Key="Key_End" />
 		<Secondary Device="GamePad" Key="Pad_RThumb">
 			<Modifier Device="GamePad" Key="Pad_X" />
+			<Modifier Device="GamePad" Key="Pad_A" />
 		</Secondary>
 	</EjectAllCargo>
 	<LandingGearToggle>
