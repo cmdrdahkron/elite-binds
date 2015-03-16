@@ -5,13 +5,14 @@
 	<MouseXDecay Value="0" />
 	<MouseYMode Value="" />
 	<MouseYDecay Value="0" />
+	<MouseReset>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</MouseReset>
 	<MouseSensitivity Value="1.00000000" />
 	<MouseDecayRate Value="4.00000000" />
 	<MouseDeadzone Value="0.05000000" />
 	<MouseLinearity Value="1.00000000" />
-	<MouseHeadlook Value="1" />
-	<MouseHeadlookInvert Value="0" />
-	<MouseHeadlookSensitivity Value="0.50000000" />
 	<MouseGUI Value="0" />
 	<YawAxis>
 		<Binding Device="GamePad" Key="Pad_RStickX" />
@@ -246,13 +247,13 @@
 	<ToggleFlightAssist>
 		<Primary Device="Keyboard" Key="Key_Z" />
 		<Secondary Device="GamePad" Key="Pad_LThumb">
-      <Modifier Device="GamePad" Key="Pad_X" />
-    </Secondary>
+			<Modifier Device="GamePad" Key="Pad_X" />
+		</Secondary>
 		<ToggleOn Value="1" />
 	</ToggleFlightAssist>
 	<UseBoostJuice>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="GamePad" Key="Pad_LThumb"/>
+		<Secondary Device="GamePad" Key="Pad_LThumb" />
 	</UseBoostJuice>
 	<HyperSuperCombination>
 		<Primary Device="Keyboard" Key="Key_J" />
@@ -305,6 +306,26 @@
 		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</CyclePreviousHostileTarget>
+	<TargetWingman0>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</TargetWingman0>
+	<TargetWingman1>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</TargetWingman1>
+	<TargetWingman2>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</TargetWingman2>
+	<SelectTargetsTarget>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</SelectTargetsTarget>
+	<WingNavLock>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</WingNavLock>
 	<CycleNextSubsystem>
 		<Primary Device="Keyboard" Key="Key_RightBracket" />
 		<Secondary Device="GamePad" Key="Pad_DPadRight">
@@ -316,6 +337,10 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</CyclePreviousSubsystem>
 	<GunsightSystem />
+	<TargetNextRouteSystem>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</TargetNextRouteSystem>
 	<PrimaryFire>
 		<Primary Device="Mouse" Key="Mouse_1" />
 		<Secondary Device="GamePad" Key="Pos_Pad_RTrigger" />
@@ -364,6 +389,11 @@
 			<Modifier Device="GamePad" Key="Pad_X" />
 		</Secondary>
 	</ShipSpotLightToggle>
+	<RadarRangeAxis>
+		<Binding Device="{NoDevice}" Key="" />
+		<Inverted Value="0" />
+		<Deadzone Value="0.00000000" />
+	</RadarRangeAxis>
 	<RadarIncreaseRange>
 		<Primary Device="Keyboard" Key="Key_PageUp" />
 		<Secondary Device="GamePad" Key="Pad_DPadRight">
@@ -435,6 +465,10 @@
 			<Modifier Device="GamePad" Key="Pad_A" />
 		</Secondary>
 	</FireChaffLauncher>
+	<PhotoCameraToggle>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</PhotoCameraToggle>
 	<UIFocusMode Value="Bindings_FocusModeHold" />
 	<UIFocus>
 		<Primary Device="Keyboard" Key="Key_CapsLock" />
@@ -455,8 +489,8 @@
 	<FocusRadarPanel>
 		<Primary Device="Keyboard" Key="Key_3" />
 		<Secondary Device="GamePad" Key="Pad_DPadDown">
-      <Modifier Device="GamePad" Key="Pad_B"/>
-    </Secondary>
+			<Modifier Device="GamePad" Key="Pad_B" />
+		</Secondary>
 	</FocusRadarPanel>
 	<QuickCommsPanel>
 		<Primary Device="Keyboard" Key="Key_Enter" />
@@ -468,10 +502,15 @@
 			<Modifier Device="GamePad" Key="Pad_B" />
 		</Secondary>
 	</FocusCommsPanel>
+	<FocusOnTextEntryField Value="1" />
 	<GalaxyMapOpen>
 		<Primary Device="Keyboard" Key="Key_M" />
 		<Secondary Device="GamePad" Key="Pad_Back" />
 	</GalaxyMapOpen>
+	<SystemMapOpen>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</SystemMapOpen>
 	<HeadLookToggle>
 		<Primary Device="Mouse" Key="Mouse_4" />
 		<Secondary Device="GamePad" Key="Pad_RThumb" />
@@ -513,8 +552,14 @@
 		<Primary Device="Keyboard" Key="Key_Q" />
 		<Secondary Device="GamePad" Key="Pad_LBumper" />
 	</CyclePreviousPanel>
+	<MouseHeadlook Value="1" />
+	<MouseHeadlookInvert Value="0" />
+	<MouseHeadlookSensitivity Value="0.50000000" />
 	<HeadlookDefault Value="0" />
+	<HeadlookIncrement Value="0.00000000" />
 	<HeadlookMode Value="Bindings_HeadlookModeAccumulate" />
+	<HeadlookResetOnToggle Value="1" />
+	<HeadlookSensitivity Value="1.00000000" />
 	<HeadLookReset>
 		<Primary Device="Mouse" Key="Mouse_5" />
 		<Secondary Device="{NoDevice}" Key="" />
