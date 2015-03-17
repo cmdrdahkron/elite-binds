@@ -6,7 +6,7 @@ So after much tweaking and experimentation I've created my own, based somewhat o
 
 I wondered if other Xbox controller users might be interested in trying it too.
 
-**UPDATE** I've added a config for the PS4 controller too.
+**UPDATE:** I've added a config for the PS4 controller too.
 
 ## Rationale
 
