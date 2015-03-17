@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Root>
 	<KeyboardLayout>en-GB</KeyboardLayout>
-	<MouseXMode Value="" />
+	<MouseXMode Value="Bindings_MouseRoll" />
 	<MouseXDecay Value="0" />
-	<MouseYMode Value="" />
+	<MouseYMode Value="Bindings_MousePitch" />
 	<MouseYDecay Value="0" />
 	<MouseReset>
 		<Primary Device="{NoDevice}" Key="" />
@@ -13,18 +13,18 @@
 	<MouseDecayRate Value="4.00000000" />
 	<MouseDeadzone Value="0.05000000" />
 	<MouseLinearity Value="1.00000000" />
-	<MouseGUI Value="0" />
+	<MouseGUI Value="1" />
 	<YawAxis>
-		<Binding Device="DS4" Key="Pad_RStickX" />
+		<Binding Device="DS4" Key="Joy_ZAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</YawAxis>
 	<YawLeftButton>
-		<Primary Device="Keyboard" Key="Key_Numpad_4" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</YawLeftButton>
 	<YawRightButton>
-		<Primary Device="Keyboard" Key="Key_Numpad_6" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</YawRightButton>
 	<YawToRollMode Value="Bindings_YawIntoRollNone" />
@@ -35,59 +35,61 @@
 		<ToggleOn Value="0" />
 	</YawToRollButton>
 	<RollAxis>
-		<Binding Device="DS4" Key="Pad_LStickX" />
+		<Binding Device="DS4" Key="Joy_XAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</RollAxis>
 	<RollLeftButton>
-		<Primary Device="Keyboard" Key="Key_A" />
-		<Secondary Device="Keyboard" Key="Key_Numpad_7" />
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
 	</RollLeftButton>
 	<RollRightButton>
-		<Primary Device="Keyboard" Key="Key_D" />
-		<Secondary Device="Keyboard" Key="Key_Numpad_9" />
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
 	</RollRightButton>
 	<PitchAxis>
-		<Binding Device="DS4" Key="Pad_LStickY" />
+		<Binding Device="DS4" Key="Joy_YAxis" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.15000001" />
+		<Deadzone Value="0.00000000" />
 	</PitchAxis>
 	<PitchUpButton>
-		<Primary Device="Keyboard" Key="Key_Slash" />
-		<Secondary Device="Keyboard" Key="Key_Numpad_5" />
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
 	</PitchUpButton>
 	<PitchDownButton>
-		<Primary Device="Keyboard" Key="Key_SemiColon" />
-		<Secondary Device="Keyboard" Key="Key_Numpad_8" />
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
 	</PitchDownButton>
 	<LateralThrust>
 		<Binding Device="{NoDevice}" Key="" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.15000001" />
+		<Deadzone Value="0.00000000" />
 	</LateralThrust>
 	<LeftThrustButton>
-		<Primary Device="Keyboard" Key="Key_Q" />
-		<Secondary Device="DS4" Key="Pos_Pad_LTrigger">
-			<Modifier Device="DS4" Key="Pad_X" />
-		</Secondary>
+		<Primary Device="DS4" Key="Pos_Joy_RXAxis">
+			<Modifier Device="DS4" Key="Joy_1" />
+			<Modifier Device="DS4" Key="Joy_7" />
+		</Primary>
+		<Secondary Device="{NoDevice}" Key="" />
 	</LeftThrustButton>
 	<RightThrustButton>
-		<Primary Device="Keyboard" Key="Key_E" />
-		<Secondary Device="DS4" Key="Pos_Pad_RTrigger">
-			<Modifier Device="DS4" Key="Pad_X" />
-		</Secondary>
+		<Primary Device="DS4" Key="Pos_Joy_RYAxis">
+			<Modifier Device="DS4" Key="Joy_1" />
+			<Modifier Device="DS4" Key="Joy_8" />
+		</Primary>
+		<Secondary Device="{NoDevice}" Key="" />
 	</RightThrustButton>
 	<VerticalThrust>
-		<Binding Device="DS4" Key="Pad_RStickY" />
-		<Inverted Value="0" />
-		<Deadzone Value="0.15000001" />
+		<Binding Device="DS4" Key="Joy_RZAxis" />
+		<Inverted Value="1" />
+		<Deadzone Value="0.00000000" />
 	</VerticalThrust>
 	<UpThrustButton>
-		<Primary Device="Keyboard" Key="Key_W" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</UpThrustButton>
 	<DownThrustButton>
-		<Primary Device="Keyboard" Key="Key_S" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</DownThrustButton>
 	<AheadThrust>
@@ -115,12 +117,12 @@
 		<ToggleOn Value="1" />
 	</ToggleReverseThrottleInput>
 	<ForwardKey>
-		<Primary Device="Keyboard" Key="Key_Numpad_Add" />
-		<Secondary Device="DS4" Key="Pad_RBumper" />
+		<Primary Device="DS4" Key="Joy_6" />
+		<Secondary Device="{NoDevice}" Key="" />
 	</ForwardKey>
 	<BackwardKey>
-		<Primary Device="Keyboard" Key="Key_Numpad_Enter" />
-		<Secondary Device="DS4" Key="Pad_LBumper" />
+		<Primary Device="DS4" Key="Joy_5" />
+		<Secondary Device="{NoDevice}" Key="" />
 	</BackwardKey>
 	<ThrottleIncrement Value="0.00000000" />
 	<SetSpeedMinus100>
@@ -140,29 +142,29 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</SetSpeedMinus25>
 	<SetSpeedZero>
-		<Primary Device="Keyboard" Key="Key_Numpad_0" />
-		<Secondary Device="DS4" Key="Pad_LBumper">
-			<Modifier Device="DS4" Key="Pad_X" />
-			<Modifier Device="DS4" Key="Pad_A" />
-		</Secondary>
+		<Primary Device="DS4" Key="Joy_5">
+			<Modifier Device="DS4" Key="Joy_1" />
+			<Modifier Device="DS4" Key="Joy_2" />
+		</Primary>
+		<Secondary Device="{NoDevice}" Key="" />
 	</SetSpeedZero>
 	<SetSpeed25>
-		<Primary Device="Keyboard" Key="Key_Numpad_1" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</SetSpeed25>
 	<SetSpeed50>
-		<Primary Device="Keyboard" Key="Key_Numpad_2" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</SetSpeed50>
 	<SetSpeed75>
-		<Primary Device="Keyboard" Key="Key_Numpad_3" />
-		<Secondary Device="DS4" Key="Pad_RBumper">
-			<Modifier Device="DS4" Key="Pad_X" />
-			<Modifier Device="DS4" Key="Pad_A" />
-		</Secondary>
+		<Primary Device="DS4" Key="Joy_6">
+			<Modifier Device="DS4" Key="Joy_1" />
+			<Modifier Device="DS4" Key="Joy_2" />
+		</Primary>
+		<Secondary Device="{NoDevice}" Key="" />
 	</SetSpeed75>
 	<SetSpeed100>
-		<Primary Device="Keyboard" Key="Key_Numpad_Decimal" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</SetSpeed100>
 	<YawAxis_Landing>
@@ -178,7 +180,7 @@
 		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</YawRightButton_Landing>
-	<YawToRollMode_Landing Value="Bindings_YawIntoRollNone" />
+	<YawToRollMode_Landing Value="" />
 	<PitchAxis_Landing>
 		<Binding Device="{NoDevice}" Key="" />
 		<Inverted Value="0" />
@@ -211,12 +213,16 @@
 		<Deadzone Value="0.00000000" />
 	</LateralThrust_Landing>
 	<LeftThrustButton_Landing>
-		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="DS4" Key="Pos_Pad_LTrigger" />
+		<Primary Device="DS4" Key="Pos_Joy_RXAxis">
+			<Modifier Device="DS4" Key="Joy_7" />
+		</Primary>
+		<Secondary Device="{NoDevice}" Key="" />
 	</LeftThrustButton_Landing>
 	<RightThrustButton_Landing>
-		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="DS4" Key="Pos_Pad_RTrigger" />
+		<Primary Device="DS4" Key="Pos_Joy_RYAxis">
+			<Modifier Device="DS4" Key="Joy_8" />
+		</Primary>
+		<Secondary Device="{NoDevice}" Key="" />
 	</RightThrustButton_Landing>
 	<VerticalThrust_Landing>
 		<Binding Device="{NoDevice}" Key="" />
@@ -237,39 +243,39 @@
 		<Deadzone Value="0.00000000" />
 	</AheadThrust_Landing>
 	<ForwardThrustButton_Landing>
-		<Primary Device="Keyboard" Key="Key_R" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ForwardThrustButton_Landing>
 	<BackwardThrustButton_Landing>
-		<Primary Device="Keyboard" Key="Key_F" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</BackwardThrustButton_Landing>
 	<ToggleFlightAssist>
-		<Primary Device="Keyboard" Key="Key_Z" />
-		<Secondary Device="DS4" Key="Pad_LThumb">
-			<Modifier Device="DS4" Key="Pad_X" />
-		</Secondary>
+		<Primary Device="DS4" Key="Joy_11">
+			<Modifier Device="DS4" Key="Joy_1" />
+		</Primary>
+		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="1" />
 	</ToggleFlightAssist>
 	<UseBoostJuice>
-		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="DS4" Key="Pad_LThumb" />
+		<Primary Device="DS4" Key="Joy_11" />
+		<Secondary Device="{NoDevice}" Key="" />
 	</UseBoostJuice>
 	<HyperSuperCombination>
 		<Primary Device="Keyboard" Key="Key_J" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</HyperSuperCombination>
 	<Supercruise>
-		<Primary Device="Keyboard" Key="Key_X" />
-		<Secondary Device="DS4" Key="Pad_DPadDown">
-			<Modifier Device="DS4" Key="Pad_X" />
-		</Secondary>
+		<Primary Device="DS4" Key="Joy_POV1Down">
+			<Modifier Device="DS4" Key="Joy_1" />
+		</Primary>
+		<Secondary Device="{NoDevice}" Key="" />
 	</Supercruise>
 	<Hyperspace>
-		<Primary Device="Keyboard" Key="Key_K" />
-		<Secondary Device="DS4" Key="Pad_DPadUp">
-			<Modifier Device="DS4" Key="Pad_X" />
-		</Secondary>
+		<Primary Device="DS4" Key="Joy_POV1Up">
+			<Modifier Device="DS4" Key="Joy_1" />
+		</Primary>
+		<Secondary Device="{NoDevice}" Key="" />
 	</Hyperspace>
 	<DisableRotationCorrectToggle>
 		<Primary Device="{NoDevice}" Key="" />
@@ -277,117 +283,121 @@
 		<ToggleOn Value="1" />
 	</DisableRotationCorrectToggle>
 	<SelectTarget>
-		<Primary Device="Keyboard" Key="Key_Space" />
-		<Secondary Device="DS4" Key="Pad_Y" />
+		<Primary Device="DS4" Key="Joy_4" />
+		<Secondary Device="{NoDevice}" Key="" />
 	</SelectTarget>
 	<CycleNextTarget>
-		<Primary Device="Keyboard" Key="Key_G" />
-		<Secondary Device="DS4" Key="Pad_DPadLeft">
-			<Modifier Device="DS4" Key="Pad_A" />
-		</Secondary>
+		<Primary Device="DS4" Key="Joy_POV1Left">
+			<Modifier Device="DS4" Key="Joy_2" />
+		</Primary>
+		<Secondary Device="{NoDevice}" Key="" />
 	</CycleNextTarget>
 	<CyclePreviousTarget>
 		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</CyclePreviousTarget>
 	<SelectHighestThreat>
-		<Primary Device="Keyboard" Key="Key_H" />
-		<Secondary Device="DS4" Key="Pad_DPadDown">
-			<Modifier Device="DS4" Key="Pad_A" />
-		</Secondary>
+		<Primary Device="DS4" Key="Joy_POV1Down">
+			<Modifier Device="DS4" Key="Joy_2" />
+		</Primary>
+		<Secondary Device="{NoDevice}" Key="" />
 	</SelectHighestThreat>
 	<CycleNextHostileTarget>
-		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="DS4" Key="Pad_DPadUp">
-			<Modifier Device="DS4" Key="Pad_A" />
-		</Secondary>
+		<Primary Device="DS4" Key="Joy_POV1Up">
+			<Modifier Device="DS4" Key="Joy_2" />
+		</Primary>
+		<Secondary Device="{NoDevice}" Key="" />
 	</CycleNextHostileTarget>
 	<CyclePreviousHostileTarget>
 		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</CyclePreviousHostileTarget>
 	<TargetWingman0>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_7" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</TargetWingman0>
 	<TargetWingman1>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_8" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</TargetWingman1>
 	<TargetWingman2>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_9" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</TargetWingman2>
 	<SelectTargetsTarget>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_0" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</SelectTargetsTarget>
 	<WingNavLock>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_Minus" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</WingNavLock>
 	<CycleNextSubsystem>
-		<Primary Device="Keyboard" Key="Key_RightBracket" />
-		<Secondary Device="DS4" Key="Pad_DPadRight">
-			<Modifier Device="DS4" Key="Pad_A" />
-		</Secondary>
+		<Primary Device="Keyboard" Key="Key_Y" />
+		<Secondary Device="{NoDevice}" Key="" />
 	</CycleNextSubsystem>
 	<CyclePreviousSubsystem>
-		<Primary Device="Keyboard" Key="Key_LeftBracket" />
+		<Primary Device="DS4" Key="Joy_POV1Right">
+			<Modifier Device="DS4" Key="Joy_2" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</CyclePreviousSubsystem>
 	<GunsightSystem />
 	<TargetNextRouteSystem>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_0" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</TargetNextRouteSystem>
 	<PrimaryFire>
-		<Primary Device="Mouse" Key="Mouse_1" />
-		<Secondary Device="DS4" Key="Pos_Pad_RTrigger" />
+		<Primary Device="DS4" Key="Pos_Joy_RYAxis">
+			<Modifier Device="DS4" Key="Joy_8" />
+		</Primary>
+		<Secondary Device="{NoDevice}" Key="" />
 	</PrimaryFire>
 	<SecondaryFire>
-		<Primary Device="Mouse" Key="Mouse_2" />
-		<Secondary Device="DS4" Key="Pos_Pad_LTrigger" />
+		<Primary Device="DS4" Key="Pos_Joy_RXAxis">
+			<Modifier Device="DS4" Key="Joy_7" />
+		</Primary>
+		<Secondary Device="{NoDevice}" Key="" />
 	</SecondaryFire>
 	<CycleFireGroupNext>
-		<Primary Device="Keyboard" Key="Key_N" />
-		<Secondary Device="DS4" Key="Pos_Pad_LTrigger">
-			<Modifier Device="DS4" Key="Pad_A" />
-		</Secondary>
+		<Primary Device="DS4" Key="Pos_Joy_RXAxis">
+			<Modifier Device="DS4" Key="Joy_2" />
+			<Modifier Device="DS4" Key="Joy_7" />
+		</Primary>
+		<Secondary Device="{NoDevice}" Key="" />
 	</CycleFireGroupNext>
 	<CycleFireGroupPrevious>
 		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</CycleFireGroupPrevious>
 	<DeployHardpointToggle>
-		<Primary Device="Keyboard" Key="Key_U" />
-		<Secondary Device="DS4" Key="Pos_Pad_RTrigger">
-			<Modifier Device="DS4" Key="Pad_A" />
-		</Secondary>
-	</DeployHardpointToggle>
-	<DeployHardpointsOnFire Value="1" />
-	<ToggleButtonUpInput>
-		<Primary Device="Keyboard" Key="Key_Delete">
-			<Modifier Device="Keyboard" Key="Key_LeftShift" />
+		<Primary Device="DS4" Key="Pos_Joy_RYAxis">
+			<Modifier Device="DS4" Key="Joy_2" />
+			<Modifier Device="DS4" Key="Joy_8" />
 		</Primary>
-		<Secondary Device="DS4" Key="Pad_DPadLeft">
-			<Modifier Device="DS4" Key="Pad_A" />
-			<Modifier Device="DS4" Key="Pad_X" />
-		</Secondary>
+		<Secondary Device="{NoDevice}" Key="" />
+	</DeployHardpointToggle>
+	<DeployHardpointsOnFire Value="0" />
+	<ToggleButtonUpInput>
+		<Primary Device="DS4" Key="Joy_POV1Left">
+			<Modifier Device="DS4" Key="Joy_1" />
+			<Modifier Device="DS4" Key="Joy_2" />
+		</Primary>
+		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="1" />
 	</ToggleButtonUpInput>
 	<DeployHeatSink>
-		<Primary Device="Keyboard" Key="Key_V" />
-		<Secondary Device="DS4" Key="Pad_DPadRight">
-			<Modifier Device="DS4" Key="Pad_A" />
-			<Modifier Device="DS4" Key="Pad_X" />
-		</Secondary>
+		<Primary Device="DS4" Key="Joy_POV1Right">
+			<Modifier Device="DS4" Key="Joy_1" />
+			<Modifier Device="DS4" Key="Joy_2" />
+		</Primary>
+		<Secondary Device="{NoDevice}" Key="" />
 	</DeployHeatSink>
 	<ShipSpotLightToggle>
-		<Primary Device="Keyboard" Key="Key_L" />
-		<Secondary Device="DS4" Key="Pad_RThumb">
-			<Modifier Device="DS4" Key="Pad_X" />
-		</Secondary>
+		<Primary Device="DS4" Key="Joy_12">
+			<Modifier Device="DS4" Key="Joy_1" />
+		</Primary>
+		<Secondary Device="{NoDevice}" Key="" />
 	</ShipSpotLightToggle>
 	<RadarRangeAxis>
 		<Binding Device="{NoDevice}" Key="" />
@@ -395,125 +405,126 @@
 		<Deadzone Value="0.00000000" />
 	</RadarRangeAxis>
 	<RadarIncreaseRange>
-		<Primary Device="Keyboard" Key="Key_PageUp" />
-		<Secondary Device="DS4" Key="Pad_DPadRight">
-			<Modifier Device="DS4" Key="Pad_X" />
-		</Secondary>
+		<Primary Device="DS4" Key="Joy_POV1Right">
+			<Modifier Device="DS4" Key="Joy_1" />
+		</Primary>
+		<Secondary Device="{NoDevice}" Key="" />
 	</RadarIncreaseRange>
 	<RadarDecreaseRange>
-		<Primary Device="Keyboard" Key="Key_PageDown" />
-		<Secondary Device="DS4" Key="Pad_DPadLeft">
-			<Modifier Device="DS4" Key="Pad_X" />
-		</Secondary>
+		<Primary Device="DS4" Key="Joy_POV1Left">
+			<Modifier Device="DS4" Key="Joy_1" />
+		</Primary>
+		<Secondary Device="{NoDevice}" Key="" />
 	</RadarDecreaseRange>
 	<IncreaseEnginesPower>
-		<Primary Device="Keyboard" Key="Key_UpArrow" />
-		<Secondary Device="DS4" Key="Pad_DPadUp" />
+		<Primary Device="DS4" Key="Joy_POV1Up" />
+		<Secondary Device="{NoDevice}" Key="" />
 	</IncreaseEnginesPower>
 	<IncreaseWeaponsPower>
-		<Primary Device="Keyboard" Key="Key_RightArrow" />
-		<Secondary Device="DS4" Key="Pad_DPadRight" />
+		<Primary Device="DS4" Key="Joy_POV1Right" />
+		<Secondary Device="{NoDevice}" Key="" />
 	</IncreaseWeaponsPower>
 	<IncreaseSystemsPower>
-		<Primary Device="Keyboard" Key="Key_LeftArrow" />
-		<Secondary Device="DS4" Key="Pad_DPadLeft" />
+		<Primary Device="DS4" Key="Joy_POV1Left" />
+		<Secondary Device="{NoDevice}" Key="" />
 	</IncreaseSystemsPower>
 	<ResetPowerDistribution>
-		<Primary Device="Keyboard" Key="Key_DownArrow" />
-		<Secondary Device="DS4" Key="Pad_DPadDown" />
+		<Primary Device="DS4" Key="Joy_POV1Down" />
+		<Secondary Device="{NoDevice}" Key="" />
 	</ResetPowerDistribution>
 	<OculusReset>
 		<Primary Device="Keyboard" Key="Key_F12" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</OculusReset>
 	<ToggleCargoScoop>
-		<Primary Device="Keyboard" Key="Key_Home" />
-		<Secondary Device="DS4" Key="Pad_RBumper">
-			<Modifier Device="DS4" Key="Pad_X" />
-		</Secondary>
+		<Primary Device="DS4" Key="Joy_6">
+			<Modifier Device="DS4" Key="Joy_1" />
+		</Primary>
+		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="1" />
 	</ToggleCargoScoop>
 	<EjectAllCargo>
-		<Primary Device="Keyboard" Key="Key_End" />
-		<Secondary Device="DS4" Key="Pad_RThumb">
-			<Modifier Device="DS4" Key="Pad_X" />
-			<Modifier Device="DS4" Key="Pad_A" />
-		</Secondary>
+		<Primary Device="DS4" Key="Joy_12">
+			<Modifier Device="DS4" Key="Joy_1" />
+			<Modifier Device="DS4" Key="Joy_2" />
+		</Primary>
+		<Secondary Device="{NoDevice}" Key="" />
 	</EjectAllCargo>
 	<LandingGearToggle>
-		<Primary Device="Keyboard" Key="Key_Insert" />
-		<Secondary Device="DS4" Key="Pad_LBumper">
-			<Modifier Device="DS4" Key="Pad_X" />
-		</Secondary>
+		<Primary Device="DS4" Key="Joy_5">
+			<Modifier Device="DS4" Key="Joy_1" />
+		</Primary>
+		<Secondary Device="{NoDevice}" Key="" />
 	</LandingGearToggle>
 	<MicrophoneMute>
-		<Primary Device="Keyboard" Key="Key_LeftShift" />
-		<Secondary Device="Keyboard" Key="Key_Tab">
-			<Modifier Device="Keyboard" Key="Key_LeftShift" />
-		</Secondary>
-		<ToggleOn Value="1" />
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+		<ToggleOn Value="0" />
 	</MicrophoneMute>
 	<UseShieldCell>
-		<Primary Device="Keyboard" Key="Key_B" />
-		<Secondary Device="DS4" Key="Pad_LBumper">
-			<Modifier Device="DS4" Key="Pad_A" />
-		</Secondary>
+		<Primary Device="DS4" Key="Joy_5">
+			<Modifier Device="DS4" Key="Joy_2" />
+		</Primary>
+		<Secondary Device="{NoDevice}" Key="" />
 	</UseShieldCell>
 	<FireChaffLauncher>
-		<Primary Device="Keyboard" Key="Key_C" />
-		<Secondary Device="DS4" Key="Pad_RBumper">
-			<Modifier Device="DS4" Key="Pad_A" />
-		</Secondary>
+		<Primary Device="DS4" Key="Joy_6">
+			<Modifier Device="DS4" Key="Joy_2" />
+		</Primary>
+		<Secondary Device="{NoDevice}" Key="" />
 	</FireChaffLauncher>
 	<PhotoCameraToggle>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_Space">
+			<Modifier Device="Keyboard" Key="Key_LeftControl" />
+			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</PhotoCameraToggle>
 	<UIFocusMode Value="Bindings_FocusModeHold" />
 	<UIFocus>
-		<Primary Device="Keyboard" Key="Key_CapsLock" />
+		<Primary Device="Keyboard" Key="Key_LeftShift" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</UIFocus>
 	<FocusLeftPanel>
-		<Primary Device="Keyboard" Key="Key_1" />
-		<Secondary Device="DS4" Key="Pad_DPadLeft">
-			<Modifier Device="DS4" Key="Pad_B" />
-		</Secondary>
+		<Primary Device="DS4" Key="Joy_POV1Left">
+			<Modifier Device="DS4" Key="Joy_3" />
+		</Primary>
+		<Secondary Device="{NoDevice}" Key="" />
 	</FocusLeftPanel>
 	<FocusRightPanel>
-		<Primary Device="Keyboard" Key="Key_4" />
-		<Secondary Device="DS4" Key="Pad_DPadRight">
-			<Modifier Device="DS4" Key="Pad_B" />
-		</Secondary>
+		<Primary Device="DS4" Key="Joy_POV1Right">
+			<Modifier Device="DS4" Key="Joy_3" />
+		</Primary>
+		<Secondary Device="{NoDevice}" Key="" />
 	</FocusRightPanel>
 	<FocusRadarPanel>
-		<Primary Device="Keyboard" Key="Key_3" />
-		<Secondary Device="DS4" Key="Pad_DPadDown">
-			<Modifier Device="DS4" Key="Pad_B" />
-		</Secondary>
+		<Primary Device="DS4" Key="Joy_POV1Down">
+			<Modifier Device="DS4" Key="Joy_3" />
+		</Primary>
+		<Secondary Device="{NoDevice}" Key="" />
 	</FocusRadarPanel>
 	<QuickCommsPanel>
 		<Primary Device="Keyboard" Key="Key_Enter" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</QuickCommsPanel>
 	<FocusCommsPanel>
-		<Primary Device="Keyboard" Key="Key_2" />
-		<Secondary Device="DS4" Key="Pad_DPadUp">
-			<Modifier Device="DS4" Key="Pad_B" />
-		</Secondary>
+		<Primary Device="DS4" Key="Joy_POV1Up">
+			<Modifier Device="DS4" Key="Joy_3" />
+		</Primary>
+		<Secondary Device="{NoDevice}" Key="" />
 	</FocusCommsPanel>
 	<FocusOnTextEntryField Value="1" />
 	<GalaxyMapOpen>
-		<Primary Device="Keyboard" Key="Key_M" />
-		<Secondary Device="DS4" Key="Pad_Back" />
+		<Primary Device="DS4" Key="Joy_9" />
+		<Secondary Device="{NoDevice}" Key="" />
 	</GalaxyMapOpen>
 	<SystemMapOpen>
 		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</SystemMapOpen>
 	<HeadLookToggle>
-		<Primary Device="Mouse" Key="Mouse_4" />
-		<Secondary Device="DS4" Key="Pad_RThumb" />
+		<Primary Device="DS4" Key="Joy_12" />
+		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="1" />
 	</HeadLookToggle>
 	<Pause>
@@ -521,36 +532,36 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</Pause>
 	<UI_Up>
-		<Primary Device="Keyboard" Key="Key_W" />
-		<Secondary Device="DS4" Key="Pad_DPadUp" />
+		<Primary Device="DS4" Key="Joy_POV1Up" />
+		<Secondary Device="{NoDevice}" Key="" />
 	</UI_Up>
 	<UI_Down>
-		<Primary Device="Keyboard" Key="Key_S" />
-		<Secondary Device="DS4" Key="Pad_DPadDown" />
+		<Primary Device="DS4" Key="Joy_POV1Down" />
+		<Secondary Device="{NoDevice}" Key="" />
 	</UI_Down>
 	<UI_Left>
-		<Primary Device="Keyboard" Key="Key_A" />
-		<Secondary Device="DS4" Key="Pad_DPadLeft" />
+		<Primary Device="DS4" Key="Joy_POV1Left" />
+		<Secondary Device="{NoDevice}" Key="" />
 	</UI_Left>
 	<UI_Right>
-		<Primary Device="Keyboard" Key="Key_D" />
-		<Secondary Device="DS4" Key="Pad_DPadRight" />
+		<Primary Device="DS4" Key="Joy_POV1Right" />
+		<Secondary Device="{NoDevice}" Key="" />
 	</UI_Right>
 	<UI_Select>
-		<Primary Device="Keyboard" Key="Key_Space" />
-		<Secondary Device="DS4" Key="Pad_A" />
+		<Primary Device="DS4" Key="Joy_2" />
+		<Secondary Device="{NoDevice}" Key="" />
 	</UI_Select>
 	<UI_Back>
-		<Primary Device="Keyboard" Key="Key_Backspace" />
-		<Secondary Device="DS4" Key="Pad_B" />
+		<Primary Device="DS4" Key="Joy_3" />
+		<Secondary Device="{NoDevice}" Key="" />
 	</UI_Back>
 	<CycleNextPanel>
-		<Primary Device="Keyboard" Key="Key_E" />
-		<Secondary Device="DS4" Key="Pad_RBumper" />
+		<Primary Device="DS4" Key="Joy_6" />
+		<Secondary Device="{NoDevice}" Key="" />
 	</CycleNextPanel>
 	<CyclePreviousPanel>
-		<Primary Device="Keyboard" Key="Key_Q" />
-		<Secondary Device="DS4" Key="Pad_LBumper" />
+		<Primary Device="DS4" Key="Joy_5" />
+		<Secondary Device="{NoDevice}" Key="" />
 	</CyclePreviousPanel>
 	<MouseHeadlook Value="1" />
 	<MouseHeadlookInvert Value="0" />
@@ -561,7 +572,7 @@
 	<HeadlookResetOnToggle Value="1" />
 	<HeadlookSensitivity Value="1.00000000" />
 	<HeadLookReset>
-		<Primary Device="Mouse" Key="Mouse_5" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</HeadLookReset>
 	<HeadLookPitchUp>
@@ -573,9 +584,9 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</HeadLookPitchDown>
 	<HeadLookPitchAxisRaw>
-		<Binding Device="DS4" Key="Pad_RStickY" />
-		<Inverted Value="0" />
-		<Deadzone Value="0.15000001" />
+		<Binding Device="DS4" Key="Joy_RZAxis" />
+		<Inverted Value="1" />
+		<Deadzone Value="0.00000000" />
 	</HeadLookPitchAxisRaw>
 	<HeadLookYawLeft>
 		<Primary Device="{NoDevice}" Key="" />
@@ -586,27 +597,27 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</HeadLookYawRight>
 	<HeadLookYawAxis>
-		<Binding Device="DS4" Key="Pad_RStickX" />
+		<Binding Device="DS4" Key="Joy_ZAxis" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.15000001" />
+		<Deadzone Value="0.00000000" />
 	</HeadLookYawAxis>
 	<CamPitchAxis>
-		<Binding Device="DS4" Key="Pad_RStickY" />
+		<Binding Device="DS4" Key="Joy_RZAxis" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.15000001" />
+		<Deadzone Value="0.00000000" />
 	</CamPitchAxis>
 	<CamPitchUp>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_T" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</CamPitchUp>
 	<CamPitchDown>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_G" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</CamPitchDown>
 	<CamYawAxis>
-		<Binding Device="DS4" Key="Pad_RStickX" />
+		<Binding Device="DS4" Key="Joy_ZAxis" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.15000001" />
+		<Deadzone Value="0.00000000" />
 	</CamYawAxis>
 	<CamYawLeft>
 		<Primary Device="{NoDevice}" Key="" />
@@ -617,9 +628,9 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</CamYawRight>
 	<CamTranslateYAxis>
-		<Binding Device="DS4" Key="Pad_LStickY" />
+		<Binding Device="DS4" Key="Joy_YAxis" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.15000001" />
+		<Deadzone Value="0.00000000" />
 	</CamTranslateYAxis>
 	<CamTranslateForward>
 		<Primary Device="Keyboard" Key="Key_W" />
@@ -630,9 +641,9 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</CamTranslateBackward>
 	<CamTranslateXAxis>
-		<Binding Device="DS4" Key="Pad_LStickX" />
+		<Binding Device="DS4" Key="Joy_XAxis" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.15000001" />
+		<Deadzone Value="0.00000000" />
 	</CamTranslateXAxis>
 	<CamTranslateLeft>
 		<Primary Device="Keyboard" Key="Key_A" />
@@ -648,11 +659,11 @@
 		<Deadzone Value="0.00000000" />
 	</CamTranslateZAxis>
 	<CamTranslateUp>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_R" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</CamTranslateUp>
 	<CamTranslateDown>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_F" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</CamTranslateDown>
 	<CamZoomAxis>
@@ -661,16 +672,20 @@
 		<Deadzone Value="0.00000000" />
 	</CamZoomAxis>
 	<CamZoomIn>
-		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="DS4" Key="Pos_Pad_RTrigger" />
+		<Primary Device="DS4" Key="Pos_Joy_RYAxis">
+			<Modifier Device="DS4" Key="Joy_8" />
+		</Primary>
+		<Secondary Device="Keyboard" Key="Key_Z" />
 	</CamZoomIn>
 	<CamZoomOut>
-		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="DS4" Key="Pos_Pad_LTrigger" />
+		<Primary Device="DS4" Key="Pos_Joy_RXAxis">
+			<Modifier Device="DS4" Key="Joy_7" />
+		</Primary>
+		<Secondary Device="Keyboard" Key="Key_X" />
 	</CamZoomOut>
 	<CamTranslateZHold>
-		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="DS4" Key="Pad_X" />
+		<Primary Device="DS4" Key="Joy_1" />
+		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="0" />
 	</CamTranslateZHold>
 </Root>
