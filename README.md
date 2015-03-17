@@ -6,6 +6,8 @@ So after much tweaking and experimentation I've created my own, based somewhat o
 
 I wondered if other Xbox controller users might be interested in trying it too.
 
+**UPDATE** I've added a config for the PS4 controller too.
+
 ## Rationale
 
 There are three role specific modifier buttons.  ![A](images/a_s.jpg) is for combat, ![B](images/b_s.jpg) is for ui and ![X](images/x_s.jpg) is for utilities.  That way there's one less thing for me to think about and I just know that for example holding A yields combat related actions (targeting, hardpoints, weapon groups, etc).
@@ -24,10 +26,14 @@ There are three role specific modifier buttons.  ![A](images/a_s.jpg) is for com
 
 1. Start &rarr; Run &rarr; `%LOCALAPPDATA%`
 2. Go to Frontier Developments &rarr; Elite Dangerous &rarr; Options &rarr; Bindings
-3. Copy [Dahkron-Xbox.binds](https://raw.githubusercontent.com/cmdrdahkron/elite-binds/master/Dahkron-Xbox.binds) into Bindings folder (right click and save)
+3. Copy [Dahkron-Xbox.binds](https://raw.githubusercontent.com/cmdrdahkron/elite-binds/master/Dahkron-Xbox.binds) or [Dahkron-PS4.binds](https://raw.githubusercontent.com/cmdrdahkron/elite-binds/master/Dahkron-PS4.binds) into Bindings folder (right click and save either of these links)
 4. Run Elite, go to controls options and select it from the preset menu
 
 ## Changes
+
+##### 17/03/15
+
+ * Added a PS4 binds file (thanks to my mate Jon!)
 
 ##### 22/01/15
 
