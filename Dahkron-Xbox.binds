@@ -151,7 +151,7 @@
 	</ForwardKey>
 	<BackwardKey>
 		<Primary Device="Keyboard" Key="Key_Numpad_Enter" />
-		<Secondary Device="GamePad" Key="GAmePad_LBumper" />
+		<Secondary Device="GamePad" Key="GamePad_LBumper" />
 	</BackwardKey>
 	<ThrottleIncrement Value="0.00000000" />
 	<SetSpeedMinus100>
