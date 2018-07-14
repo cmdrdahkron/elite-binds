@@ -16,11 +16,13 @@ There are three role specific modifier buttons.  ![A](images/a_s.jpg) is for com
 
 ### Bindings
 
-![Supercruise Bindings](images/xbox/supercruise.png)
-
 ![System bindings](images/xbox/system.png)
 
+![Supercruise Bindings](images/xbox/supercruise.png)
+
 ![Landing overrides](images/xbox/landing.png)
+
+![Buggy](images/xbox/buggy.png)
 
 ## Installing
 
@@ -30,6 +32,12 @@ There are three role specific modifier buttons.  ![A](images/a_s.jpg) is for com
 4. Run Elite, go to controls options and select it from the preset menu
 
 ## Changes
+
+##### 18/07/14
+
+* Redone all pictures with evolus/pencil, kept the source for future editing
+* Added one for the buggy, I'm unhappy with vertical thruster on B (hard to open panels)
+* It's ugly I know. Waiting to improve bindings before fine tuning the pictures
 
 ##### 18/07/08
 
