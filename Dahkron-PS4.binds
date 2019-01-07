@@ -629,7 +629,7 @@
 	<UI_Toggle>
 		<Primary Device="DualShock4" Key="Joy_4" />
 		<Secondary Device="Keyboard" Key="Key_Equals" />
-	</UI_Toggle>4
+	</UI_Toggle>
 	<CycleNextPanel>
 		<Primary Device="DualShock4" Key="Joy_6" />
 		<Secondary Device="{NoDevice}" Key="" />
@@ -638,6 +638,14 @@
 		<Primary Device="DualShock4" Key="Joy_5" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</CyclePreviousPanel>
+	<CycleNextPage>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_C" />
+	</CycleNextPage>
+	<CyclePreviousPage>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_Z" />
+	</CyclePreviousPage>
 	<MouseHeadlook Value="1" />
 	<MouseHeadlookInvert Value="0" />
 	<MouseHeadlookSensitivity Value="0.50000000" />
@@ -1470,5 +1478,5 @@
 		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</SAAThirdPersonFovInButton>
-	
+
 </Root>
