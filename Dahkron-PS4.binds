@@ -106,6 +106,36 @@
 		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</BackwardThrustButton>
+	<UseAlternateFlightValuesToggle>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+		<ToggleOn Value="1" />
+	</UseAlternateFlightValuesToggle>
+	<YawAxisAlternate>
+		<Binding Device="{NoDevice}" Key="" />
+		<Inverted Value="0" />
+		<Deadzone Value="0.00000000" />
+	</YawAxisAlternate>
+	<RollAxisAlternate>
+		<Binding Device="{NoDevice}" Key="" />
+		<Inverted Value="0" />
+		<Deadzone Value="0.00000000" />
+	</RollAxisAlternate>
+	<PitchAxisAlternate>
+		<Binding Device="{NoDevice}" Key="" />
+		<Inverted Value="0" />
+		<Deadzone Value="0.00000000" />
+	</PitchAxisAlternate>
+	<LateralThrustAlternate>
+		<Binding Device="{NoDevice}" Key="" />
+		<Inverted Value="0" />
+		<Deadzone Value="0.00000000" />
+	</LateralThrustAlternate>
+	<VerticalThrustAlternate>
+		<Binding Device="{NoDevice}" Key="" />
+		<Inverted Value="0" />
+		<Deadzone Value="0.00000000" />
+	</VerticalThrustAlternate>
 	<ThrottleAxis>
 		<Binding Device="{NoDevice}" Key="" />
 		<Inverted Value="0" />
@@ -283,6 +313,10 @@
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="1" />
 	</DisableRotationCorrectToggle>
+	<OrbitLinesToggle>
+		<Primary Device="Keyboard" Key="Key_Equals" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</OrbitLinesToggle>
 	<SelectTarget>
 		<Primary Device="DualShock4" Key="Joy_4" />
 		<Secondary Device="{NoDevice}" Key="" />
