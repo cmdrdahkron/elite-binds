@@ -540,22 +540,6 @@
 		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</FocusLeftPanel>
-	<FocusRightPanel>
-		<Primary Device="DualShock4" Key="Joy_POV1Right">
-			<Modifier Device="DualShock4" Key="Joy_3" />
-		</Primary>
-		<Secondary Device="{NoDevice}" Key="" />
-	</FocusRightPanel>
-	<FocusRadarPanel>
-		<Primary Device="DualShock4" Key="Joy_POV1Down">
-			<Modifier Device="DualShock4" Key="Joy_3" />
-		</Primary>
-		<Secondary Device="{NoDevice}" Key="" />
-	</FocusRadarPanel>
-	<QuickCommsPanel>
-		<Primary Device="Keyboard" Key="Key_Enter" />
-		<Secondary Device="{NoDevice}" Key="" />
-	</QuickCommsPanel>
 	<FocusCommsPanel>
 		<Primary Device="DualShock4" Key="Joy_POV1Up">
 			<Modifier Device="DualShock4" Key="Joy_3" />
@@ -563,6 +547,27 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</FocusCommsPanel>
 	<FocusOnTextEntryField Value="1" />
+	<QuickCommsPanel>
+		<Primary Device="Keyboard" Key="Key_Enter" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</QuickCommsPanel>
+	<FocusRadarPanel>
+		<Primary Device="DualShock4" Key="Joy_POV1Down">
+			<Modifier Device="DualShock4" Key="Joy_3" />
+		</Primary>
+		<Secondary Device="{NoDevice}" Key="" />
+	</FocusRadarPanel>
+	<FocusRightPanel>
+		<Primary Device="DualShock4" Key="Joy_POV1Right">
+			<Modifier Device="DualShock4" Key="Joy_3" />
+		</Primary>
+		<Secondary Device="{NoDevice}" Key="" />
+	</FocusRightPanel>
+	<LeftPanelFocusOptions Value="" />
+	<CommsPanelFocusOptions Value="" />
+	<RolePanelFocusOptions Value="" />
+	<RightPanelFocusOptions Value="" />
+	<EnableCameraLockOn Value="1" />
 	<GalaxyMapOpen>
 		<Primary Device="DualShock4" Key="Joy_9" />
 		<Secondary Device="{NoDevice}" Key="" />
@@ -571,6 +576,11 @@
 		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</SystemMapOpen>
+	<ShowPGScoreSummaryInput>
+		<Primary Device="Keyboard" Key="Key_F1" />
+		<Secondary Device="{NoDevice}" Key="" />
+		<ToggleOn Value="0" />
+	</ShowPGScoreSummaryInput>
 	<HeadLookToggle>
 		<Primary Device="DualShock4" Key="Joy_12" />
 		<Secondary Device="{NoDevice}" Key="" />
@@ -580,6 +590,18 @@
 		<Primary Device="Keyboard" Key="Key_P" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</Pause>
+	<FriendsMenu>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</FriendsMenu>
+	<OpenCodexGoToDiscovery>
+		<Primary Device="Keyboard" Key="Key_O" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</OpenCodexGoToDiscovery>
+	<PlayerHUDModeToggle>
+		<Primary Device="Keyboard" Key="Key_M" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</PlayerHUDModeToggle>
 	<UI_Up>
 		<Primary Device="DualShock4" Key="Joy_POV1Up" />
 		<Secondary Device="{NoDevice}" Key="" />
@@ -604,6 +626,10 @@
 		<Primary Device="DualShock4" Key="Joy_3" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</UI_Back>
+	<UI_Toggle>
+		<Primary Device="DualShock4" Key="Joy_4" />
+		<Secondary Device="Keyboard" Key="Key_Equals" />
+	</UI_Toggle>4
 	<CycleNextPanel>
 		<Primary Device="DualShock4" Key="Joy_6" />
 		<Secondary Device="{NoDevice}" Key="" />
@@ -620,6 +646,7 @@
 	<HeadlookMode Value="Bindings_HeadlookModeAccumulate" />
 	<HeadlookResetOnToggle Value="1" />
 	<HeadlookSensitivity Value="1.00000000" />
+	<HeadlookSmoothing Value="1" />
 	<HeadLookReset>
 		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
@@ -650,6 +677,9 @@
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</HeadLookYawAxis>
+	<MotionHeadlook Value="0" />
+	<HeadlookMotionSensitivity Value="1.00000000" />
+	<yawRotateHeadlook Value="0" />
 	<CamPitchAxis>
 		<Binding Device="DualShock4" Key="Joy_RZAxis" />
 		<Inverted Value="0" />
