@@ -467,10 +467,10 @@
 		<Primary Device="DualShock4" Key="Joy_POV1Down" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ResetPowerDistribution>
-	<OculusReset>
+	<HMDReset>
 		<Primary Device="Keyboard" Key="Key_F12" />
 		<Secondary Device="{NoDevice}" Key="" />
-	</OculusReset>
+	</HMDReset>
 	<ToggleCargoScoop>
 		<Primary Device="DualShock4" Key="Joy_6">
 			<Modifier Device="DualShock4" Key="Joy_1" />
@@ -496,6 +496,8 @@
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="0" />
 	</MicrophoneMute>
+	<MuteButtonMode Value="mute_toggle" />
+	<CqcMuteButtonMode Value="mute_pushToTalk" />
 	<UseShieldCell>
 		<Primary Device="DualShock4" Key="Joy_5">
 			<Modifier Device="DualShock4" Key="Joy_2" />
@@ -508,18 +510,30 @@
 		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</FireChaffLauncher>
-	<PhotoCameraToggle>
-		<Primary Device="Keyboard" Key="Key_Space">
-			<Modifier Device="Keyboard" Key="Key_LeftControl" />
-			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
-		</Primary>
+	<ChargeECM>
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
-	</PhotoCameraToggle>
-	<UIFocusMode Value="Bindings_FocusModeHold" />
+	</ChargeECM>
+	<EnableRumbleTrigger Value="1" />
+	<EnableMenuGroups Value="1" />
+	<MouseGUI Value="0" />
+	<WeaponColourToggle>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</WeaponColourToggle>
+	<EngineColourToggle>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</EngineColourToggle>
+	<NightVisionToggle>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</NightVisionToggle>
 	<UIFocus>
 		<Primary Device="Keyboard" Key="Key_LeftShift" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</UIFocus>
+	<UIFocusMode Value="Bindings_FocusModeHold" />
 	<FocusLeftPanel>
 		<Primary Device="DualShock4" Key="Joy_POV1Left">
 			<Modifier Device="DualShock4" Key="Joy_3" />
