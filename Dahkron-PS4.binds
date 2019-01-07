@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<Root PresetName="Custom" MajorVersion="3" MinorVersion="0">
-	<KeyboardLayout>en-GB</KeyboardLayout>
-	<MouseXMode Value="Bindings_MouseRoll" />
+<Root PresetName="Dahkron" MajorVersion="3" MinorVersion="0">
+	<KeyboardLayout>en-US</KeyboardLayout>
+	<MouseXMode Value="" />
 	<MouseXDecay Value="0" />
-	<MouseYMode Value="Bindings_MousePitch" />
+	<MouseYMode Value="" />
 	<MouseYDecay Value="0" />
 	<MouseReset>
 		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</MouseReset>
-	<MouseSensitivity Value="1.00000000" />
+	<MouseSensitivity Value="0.89999998" />
 	<MouseDecayRate Value="4.00000000" />
 	<MouseDeadzone Value="0.05000000" />
 	<MouseLinearity Value="1.00000000" />
-	<MouseGUI Value="1" />
+	<MouseGUI Value="0" />
 	<YawAxisRaw>
 		<Binding Device="DualShock4" Key="Joy_ZAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</YawAxisRaw>
 	<YawLeftButton>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_Numpad_4" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</YawLeftButton>
 	<YawRightButton>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_Numpad_6" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</YawRightButton>
 	<YawToRollMode Value="Bindings_YawIntoRollNone" />
@@ -41,8 +41,8 @@
 		<Deadzone Value="0.00000000" />
 	</RollAxisRaw>
 	<RollLeftButton>
-		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_A" />
+		<Secondary Device="Keyboard" Key="Key_Numpad_7" />
 	</RollLeftButton>
 	<RollRightButton>
 		<Primary Device="{NoDevice}" Key="" />
@@ -51,15 +51,15 @@
 	<PitchAxisRaw>
 		<Binding Device="DualShock4" Key="Joy_YAxis" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.00000000" />
+		<Deadzone Value="0.15000001" />
 	</PitchAxisRaw>
 	<PitchUpButton>
-		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_Slash" />
+		<Secondary Device="Keyboard" Key="Key_Numpad_5" />
 	</PitchUpButton>
 	<PitchDownButton>
-		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_SemiColon" />
+		<Secondary Device="Keyboard" Key="Key_Numpad_8" />
 	</PitchDownButton>
 	<LateralThrustRaw>
 		<Binding Device="{NoDevice}" Key="" />
@@ -67,30 +67,30 @@
 		<Deadzone Value="0.00000000" />
 	</LateralThrustRaw>
 	<LeftThrustButton>
-		<Primary Device="DualShock4" Key="Pos_Joy_RXAxis">
+		<Primary Device="Keyboard" Key="Key_Q" />
+		<Secondary Device="DualShock4" Key="Pos_Joy_RXAxis">
 			<Modifier Device="DualShock4" Key="Joy_1" />
 			<Modifier Device="DualShock4" Key="Joy_7" />
-		</Primary>
-		<Secondary Device="{NoDevice}" Key="" />
+		</Secondary>
 	</LeftThrustButton>
 	<RightThrustButton>
-		<Primary Device="DualShock4" Key="Pos_Joy_RYAxis">
+		<Primary Device="Keyboard" Key="Key_E" />
+		<Secondary Device="DualShock4" Key="Pos_Joy_RYAxis">
 			<Modifier Device="DualShock4" Key="Joy_1" />
 			<Modifier Device="DualShock4" Key="Joy_8" />
-		</Primary>
-		<Secondary Device="{NoDevice}" Key="" />
+		</Secondary>
 	</RightThrustButton>
-	<VerticalThrust>
+	<VerticalThrustRaw>
 		<Binding Device="DualShock4" Key="Joy_RZAxis" />
-		<Inverted Value="1" />
-		<Deadzone Value="0.00000000" />
-	</VerticalThrust>
+		<Inverted Value="0" />
+		<Deadzone Value="0.15000001" />
+	</VerticalThrustRaw>
 	<UpThrustButton>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_R" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</UpThrustButton>
 	<DownThrustButton>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_F" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</DownThrustButton>
 	<AheadThrust>
@@ -148,12 +148,12 @@
 		<ToggleOn Value="1" />
 	</ToggleReverseThrottleInput>
 	<ForwardKey>
-		<Primary Device="DualShock4" Key="Joy_6" />
-		<Secondary Device="{NoDevice}" Key="" />
+  <Primary Device="Keyboard" Key="Key_Numpad_Add" />
+	<Secondary Device="DualShock4" Key="Joy_6" />
 	</ForwardKey>
 	<BackwardKey>
-		<Primary Device="DualShock4" Key="Joy_5" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_Numpad_Enter" />
+		<Secondary Device="DualShock4" Key="Joy_5" />
 	</BackwardKey>
 	<ThrottleIncrement Value="0.00000000" />
 	<SetSpeedMinus100>
@@ -173,29 +173,29 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</SetSpeedMinus25>
 	<SetSpeedZero>
-		<Primary Device="DualShock4" Key="Joy_5">
+		<Primary Device="Keyboard" Key="Key_Numpad_0" />
+		<Secondary Device="DualShock4" Key="Joy_5">
 			<Modifier Device="DualShock4" Key="Joy_1" />
 			<Modifier Device="DualShock4" Key="Joy_2" />
-		</Primary>
-		<Secondary Device="{NoDevice}" Key="" />
+		</Secondary>
 	</SetSpeedZero>
 	<SetSpeed25>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_Numpad_1" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</SetSpeed25>
 	<SetSpeed50>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_Numpad_2" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</SetSpeed50>
 	<SetSpeed75>
-		<Primary Device="DualShock4" Key="Joy_6">
+		<Primary Device="Keyboard" Key="Key_Numpad_3" />
+		<Secondary Device="DualShock4" Key="Joy_6">
 			<Modifier Device="DualShock4" Key="Joy_1" />
 			<Modifier Device="DualShock4" Key="Joy_2" />
-		</Primary>
-		<Secondary Device="{NoDevice}" Key="" />
+		</Secondary>
 	</SetSpeed75>
 	<SetSpeed100>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_Numpad_Decimal" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</SetSpeed100>
 	<YawAxis_Landing>
@@ -244,16 +244,16 @@
 		<Deadzone Value="0.00000000" />
 	</LateralThrust_Landing>
 	<LeftThrustButton_Landing>
-		<Primary Device="DualShock4" Key="Pos_Joy_RXAxis">
+		<Primary Device="{NoDevice}" Key="" />
+ 		<Secondary Device="DualShock4" Key="Pos_Joy_RXAxis">
 			<Modifier Device="DualShock4" Key="Joy_7" />
-		</Primary>
-		<Secondary Device="{NoDevice}" Key="" />
+		</Secondary>
 	</LeftThrustButton_Landing>
 	<RightThrustButton_Landing>
-		<Primary Device="DualShock4" Key="Pos_Joy_RYAxis">
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="DualShock4" Key="Pos_Joy_RYAxis">
 			<Modifier Device="DualShock4" Key="Joy_8" />
-		</Primary>
-		<Secondary Device="{NoDevice}" Key="" />
+		</Secondary>
 	</RightThrustButton_Landing>
 	<VerticalThrust_Landing>
 		<Binding Device="{NoDevice}" Key="" />
@@ -282,31 +282,31 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</BackwardThrustButton_Landing>
 	<ToggleFlightAssist>
-		<Primary Device="DualShock4" Key="Joy_11">
+		<Primary Device="Keyboard" Key="Key_Z" />
+		<Secondary Device="DualShock4" Key="Joy_11">
 			<Modifier Device="DualShock4" Key="Joy_1" />
-		</Primary>
-		<Secondary Device="{NoDevice}" Key="" />
+		</Secondary>
 		<ToggleOn Value="1" />
 	</ToggleFlightAssist>
 	<UseBoostJuice>
-		<Primary Device="DualShock4" Key="Joy_11" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_Tab" />
+		<Secondary Device="DualShock4" Key="Joy_11" />
 	</UseBoostJuice>
 	<HyperSuperCombination>
 		<Primary Device="Keyboard" Key="Key_J" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</HyperSuperCombination>
 	<Supercruise>
-		<Primary Device="DualShock4" Key="Joy_POV1Down">
+		<Primary Device="Keyboard" Key="Key_X" />
+		<Secondary Device="DualShock4" Key="Joy_POV1Down">
 			<Modifier Device="DualShock4" Key="Joy_1" />
-		</Primary>
-		<Secondary Device="{NoDevice}" Key="" />
+		</Secondary>
 	</Supercruise>
 	<Hyperspace>
-		<Primary Device="DualShock4" Key="Joy_POV1Up">
+		<Primary Device="Keyboard" Key="Key_K" />
+		<Secondary Device="DualShock4" Key="Joy_POV1Up">
 			<Modifier Device="DualShock4" Key="Joy_1" />
-		</Primary>
-		<Secondary Device="{NoDevice}" Key="" />
+		</Secondary>
 	</Hyperspace>
 	<DisableRotationCorrectToggle>
 		<Primary Device="{NoDevice}" Key="" />
@@ -318,30 +318,30 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</OrbitLinesToggle>
 	<SelectTarget>
-		<Primary Device="DualShock4" Key="Joy_4" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_T" />
+		<Secondary Device="DualShock4" Key="Joy_4" />
 	</SelectTarget>
 	<CycleNextTarget>
-		<Primary Device="DualShock4" Key="Joy_POV1Left">
+		<Primary Device="Keyboard" Key="Key_G" />
+		<Secondary Device="DualShock4" Key="Joy_POV1Left">
 			<Modifier Device="DualShock4" Key="Joy_2" />
-		</Primary>
-		<Secondary Device="{NoDevice}" Key="" />
+		</Secondary>
 	</CycleNextTarget>
 	<CyclePreviousTarget>
 		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</CyclePreviousTarget>
 	<SelectHighestThreat>
-		<Primary Device="DualShock4" Key="Joy_POV1Down">
+		<Primary Device="Keyboard" Key="Key_H" />
+		<Secondary Device="DualShock4" Key="Joy_POV1Down">
 			<Modifier Device="DualShock4" Key="Joy_2" />
-		</Primary>
-		<Secondary Device="{NoDevice}" Key="" />
+		</Secondary>
 	</SelectHighestThreat>
 	<CycleNextHostileTarget>
-		<Primary Device="DualShock4" Key="Joy_POV1Up">
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="DualShock4" Key="Joy_POV1Up">
 			<Modifier Device="DualShock4" Key="Joy_2" />
-		</Primary>
-		<Secondary Device="{NoDevice}" Key="" />
+		</Secondary>
 	</CycleNextHostileTarget>
 	<CyclePreviousHostileTarget>
 		<Primary Device="{NoDevice}" Key="" />
@@ -368,71 +368,72 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</WingNavLock>
 	<CycleNextSubsystem>
-		<Primary Device="Keyboard" Key="Key_Y" />
+		<Primary Device="Keyboard" Key="Key_RightBracket" />
 		<Secondary Device="{NoDevice}" Key="" />
-	</CycleNextSubsystem>
+		</CycleNextSubsystem>
 	<CyclePreviousSubsystem>
-		<Primary Device="DualShock4" Key="Joy_POV1Right">
+		<Primary Device="Keyboard" Key="Key_LeftBracket" />
+		<Secondary Device="DualShock4" Key="Joy_POV1Right">
 			<Modifier Device="DualShock4" Key="Joy_2" />
-		</Primary>
-		<Secondary Device="{NoDevice}" Key="" />
+		</Secondary>
 	</CyclePreviousSubsystem>
-	<GunsightSystem />
 	<TargetNextRouteSystem>
-		<Primary Device="Keyboard" Key="Key_0" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</TargetNextRouteSystem>
 	<PrimaryFire>
-		<Primary Device="DualShock4" Key="Pos_Joy_RYAxis">
+  <Primary Device="Mouse" Key="Mouse_1" />
+	<Secondary Device="DualShock4" Key="Pos_Joy_RYAxis">
 			<Modifier Device="DualShock4" Key="Joy_8" />
-		</Primary>
-		<Secondary Device="{NoDevice}" Key="" />
+	</Secondary>
 	</PrimaryFire>
 	<SecondaryFire>
-		<Primary Device="DualShock4" Key="Pos_Joy_RXAxis">
+		<Primary Device="Mouse" Key="Mouse_2" />
+		<Secondary Device="DualShock4" Key="Pos_Joy_RXAxis">
 			<Modifier Device="DualShock4" Key="Joy_7" />
-		</Primary>
-		<Secondary Device="{NoDevice}" Key="" />
+		</Secondary>
 	</SecondaryFire>
 	<CycleFireGroupNext>
-		<Primary Device="DualShock4" Key="Pos_Joy_RXAxis">
+  <Primary Device="Keyboard" Key="Key_N" />
+		<Secondary Device="DualShock4" Key="Pos_Joy_RXAxis">
 			<Modifier Device="DualShock4" Key="Joy_2" />
 			<Modifier Device="DualShock4" Key="Joy_7" />
-		</Primary>
-		<Secondary Device="{NoDevice}" Key="" />
+		</Secondary>
 	</CycleFireGroupNext>
 	<CycleFireGroupPrevious>
 		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</CycleFireGroupPrevious>
 	<DeployHardpointToggle>
-		<Primary Device="DualShock4" Key="Pos_Joy_RYAxis">
+		<Primary Device="Keyboard" Key="Key_U" />
+		<Secondary Device="DualShock4" Key="Pos_Joy_RYAxis">
 			<Modifier Device="DualShock4" Key="Joy_2" />
 			<Modifier Device="DualShock4" Key="Joy_8" />
-		</Primary>
-		<Secondary Device="{NoDevice}" Key="" />
+		</Secondary>
 	</DeployHardpointToggle>
-	<DeployHardpointsOnFire Value="0" />
+	<DeployHardpointsOnFire Value="1" />
 	<ToggleButtonUpInput>
-		<Primary Device="DualShock4" Key="Joy_POV1Left">
+		<Primary Device="Keyboard" Key="Key_Delete">
+			<Modifier Device="Keyboard" Key="Key_LeftShift" />
+		</Primary>
+		<Secondary Device="DualShock4" Key="Joy_POV1Left">
 			<Modifier Device="DualShock4" Key="Joy_1" />
 			<Modifier Device="DualShock4" Key="Joy_2" />
-		</Primary>
-		<Secondary Device="{NoDevice}" Key="" />
+		</Secondary>
 		<ToggleOn Value="1" />
 	</ToggleButtonUpInput>
 	<DeployHeatSink>
-		<Primary Device="DualShock4" Key="Joy_POV1Right">
+		<Primary Device="Keyboard" Key="Key_V" />
+		<Secondary Device="DualShock4" Key="Joy_POV1Right">
 			<Modifier Device="DualShock4" Key="Joy_1" />
 			<Modifier Device="DualShock4" Key="Joy_2" />
-		</Primary>
-		<Secondary Device="{NoDevice}" Key="" />
+		</Secondary>
 	</DeployHeatSink>
 	<ShipSpotLightToggle>
-		<Primary Device="DualShock4" Key="Joy_12">
+		<Primary Device="KEyboard" Key="Key_L" />
+		<Secondary Device="DualShock4" Key="Joy_12">
 			<Modifier Device="DualShock4" Key="Joy_1" />
-		</Primary>
-		<Secondary Device="{NoDevice}" Key="" />
+		</Secondary>
 	</ShipSpotLightToggle>
 	<RadarRangeAxis>
 		<Binding Device="{NoDevice}" Key="" />
@@ -440,24 +441,24 @@
 		<Deadzone Value="0.00000000" />
 	</RadarRangeAxis>
 	<RadarIncreaseRange>
-		<Primary Device="DualShock4" Key="Joy_POV1Right">
+		<Primary Device="Keyboard" Key="Key_PageUp" />
+		<Secondary Device="DualShock4" Key="Joy_POV1Right">
 			<Modifier Device="DualShock4" Key="Joy_1" />
-		</Primary>
-		<Secondary Device="{NoDevice}" Key="" />
+		</Secondary>
 	</RadarIncreaseRange>
 	<RadarDecreaseRange>
-		<Primary Device="DualShock4" Key="Joy_POV1Left">
+    <Primary Device="Keyboard" Key="Key_PageDown" />
+		<Secondary Device="DualShock4" Key="Joy_POV1Left">
 			<Modifier Device="DualShock4" Key="Joy_1" />
-		</Primary>
-		<Secondary Device="{NoDevice}" Key="" />
+		</Secondary>
 	</RadarDecreaseRange>
 	<IncreaseEnginesPower>
-		<Primary Device="DualShock4" Key="Joy_POV1Up" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_UpArrow" />
+		<Secondary Device="DualShock4" Key="Joy_POV1Up" />
 	</IncreaseEnginesPower>
 	<IncreaseWeaponsPower>
-		<Primary Device="DualShock4" Key="Joy_POV1Right" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_RightArrow" />
+		<Secondary Device="DualShock4" Key="Joy_POV1Right" />
 	</IncreaseWeaponsPower>
 	<IncreaseSystemsPower>
 		<Primary Device="DualShock4" Key="Joy_POV1Left" />
@@ -472,18 +473,18 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</HMDReset>
 	<ToggleCargoScoop>
-		<Primary Device="DualShock4" Key="Joy_6">
+		<Primary Device="Keyboard" Key="Key_Home" />
+		<Secondary Device="DualShock4" Key="Joy_6">
 			<Modifier Device="DualShock4" Key="Joy_1" />
-		</Primary>
-		<Secondary Device="{NoDevice}" Key="" />
+		</Secondary>
 		<ToggleOn Value="1" />
 	</ToggleCargoScoop>
 	<EjectAllCargo>
-		<Primary Device="DualShock4" Key="Joy_12">
+		<Primary Device="Keyboard" Key="Key_End" />
+		<Secondary Device="DualShock4" Key="Joy_12">
 			<Modifier Device="DualShock4" Key="Joy_1" />
 			<Modifier Device="DualShock4" Key="Joy_2" />
-		</Primary>
-		<Secondary Device="{NoDevice}" Key="" />
+		</Secondary>
 	</EjectAllCargo>
 	<LandingGearToggle>
 		<Primary Device="DualShock4" Key="Joy_5">
@@ -1478,5 +1479,4 @@
 		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</SAAThirdPersonFovInButton>
-
 </Root>
