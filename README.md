@@ -24,6 +24,8 @@ There are three role specific modifier buttons.  ![A](images/a_s.jpg) is for com
 
 ![Buggy](images/xbox/buggy.png)
 
+![FSS](images/xbox/fss.png)
+
 ## Installing
 
 1. Start &rarr; Run &rarr; `%LOCALAPPDATA%`
@@ -32,6 +34,11 @@ There are three role specific modifier buttons.  ![A](images/a_s.jpg) is for com
 4. Run Elite, go to controls options and select it from the preset menu
 
 ## Changes
+
+##### 7/07/19
+* Added FSS mode
+* Added misc UI modes
+* Updated xbox controls to latest game version
 
 ##### 18/07/14
 
