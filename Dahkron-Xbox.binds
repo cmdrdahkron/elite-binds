@@ -595,11 +595,15 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</OpenCodexGoToDiscovery>
 	<PlayerHUDModeToggle>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="GamePad" Key="Pos_GamePad_RTrigger">
+			<Modifier Device="GamePad" Key="GamePad_FaceRight" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</PlayerHUDModeToggle>
 	<ExplorationFSSEnter>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="GamePad" Key="GamePad_RBumper">
+			<Modifier Device="GamePad" Key="GamePad_FaceRight" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSEnter>
 	<UI_Up>
@@ -1374,7 +1378,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</GalnetAudio_ClearQueue>
 	<ExplorationFSSCameraPitch>
-		<Binding Device="{NoDevice}" Key="" />
+		<Binding Device="GamePad" Key="GamePad_LStickY" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</ExplorationFSSCameraPitch>
@@ -1387,7 +1391,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSCameraPitchDecreaseButton>
 	<ExplorationFSSCameraYaw>
-		<Binding Device="{NoDevice}" Key="" />
+		<Binding Device="GamePad" Key="GamePad_LStickX" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</ExplorationFSSCameraYaw>
@@ -1400,23 +1404,23 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSCameraYawDecreaseButton>
 	<ExplorationFSSZoomIn>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="GamePad" Key="Pos_GamePad_RTrigger" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSZoomIn>
 	<ExplorationFSSZoomOut>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="GamePad" Key="Pos_GamePad_LTrigger" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSZoomOut>
 	<ExplorationFSSMiniZoomIn>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="GamePad" Key="GamePad_RBumper" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSMiniZoomIn>
 	<ExplorationFSSMiniZoomOut>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="GamePad" Key="GamePad_LBumper" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSMiniZoomOut>
 	<ExplorationFSSRadioTuningX_Raw>
-		<Binding Device="{NoDevice}" Key="" />
+		<Binding Device="GamePad" Key="GamePad_RStickX" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</ExplorationFSSRadioTuningX_Raw>
@@ -1429,17 +1433,17 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSRadioTuningX_Decrease>
 	<ExplorationFSSRadioTuningAbsoluteX>
-		<Binding Device="{NoDevice}" Key="" />
+		<Binding Device="GamePad" Key="GamePad_RStickY" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</ExplorationFSSRadioTuningAbsoluteX>
 	<FSSTuningSensitivity Value="1.00000000" />
 	<ExplorationFSSDiscoveryScan>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="GamePad" Key="GamePad_FaceLeft" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSDiscoveryScan>
 	<ExplorationFSSQuit>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="GamePad" Key="GamePad_FaceRight" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSQuit>
 	<FSSMouseXMode Value="" />
