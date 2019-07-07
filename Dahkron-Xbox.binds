@@ -568,7 +568,9 @@
 	</GalaxyMapOpen>
 	<SystemMapOpen>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="GamePad" Key="GamePad_Back">
+			<Modifier Device="GamePad" Key="GamePad_FaceRight" />
+		</Secondary>
 	</SystemMapOpen>
 	<ShowPGScoreSummaryInput>
 		<Primary Device="{NoDevice}" Key="" />
