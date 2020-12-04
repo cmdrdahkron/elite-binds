@@ -70,13 +70,11 @@
 		<Primary Device="Keyboard" Key="Key_Q" />
 		<Secondary Device="GamePad" Key="Pos_GamePad_LTrigger">
 			<Modifier Device="GamePad" Key="GamePad_FaceLeft" />
-		</Secondary>
 	</LeftThrustButton>
 	<RightThrustButton>
 		<Primary Device="Keyboard" Key="Key_E" />
 		<Secondary Device="GamePad" Key="Pos_GamePad_RTrigger">
 			<Modifier Device="GamePad" Key="GamePad_FaceLeft" />
-		</Secondary>
 	</RightThrustButton>
 	<VerticalThrustRaw>
 		<Binding Device="GamePad" Key="GamePad_RStickY" />
